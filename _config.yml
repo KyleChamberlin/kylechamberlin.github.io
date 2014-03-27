@@ -4,7 +4,8 @@ permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
-
+markdown: kramdown
+     input: GFM
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
@@ -81,7 +82,7 @@ JB :
   comments :
     provider : intensedebate
     intensedebate :
-      account : 7a278c425ab1ece97a0ec5c6f966fb75
+      account : 92220d8eeebeec60720ca0595b68812e
 
    
   # Settings for analytics helper

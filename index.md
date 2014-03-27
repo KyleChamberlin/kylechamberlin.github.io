@@ -5,17 +5,15 @@ tagline : I hope we both learn something
 ---
 {% include JB/setup %}
 
-Here's a sample "posts list".
-
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
 
-### Hello, and welcome to my humble blog. 
+## Hello, and welcome to my humble blog. 
 
-#### Goals
+### Goals
 
 There are a number of things I hope to accomplish with this blog, let me list them here:
 
@@ -25,7 +23,7 @@ There are a number of things I hope to accomplish with this blog, let me list th
 4. Expand my horizons, and learn new things.
 5. Have a place to deposit Statisical, Mathematical, and Data thoughts, and findings.
 
-#### Requisites
+### Requisites
 
 I hope that my knowledge and experiences here will help anyone who read this to become 
 better aquainted with the tools, methods, and things I do. That said I don't intend to 

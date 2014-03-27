@@ -11,8 +11,8 @@ kramdown:
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Mathemagical Musings
-tagline: an amateur coder attempts to become a professional developer
+title : Pull Requests
+tagline: Hoping to get merged
 author :
   name : Kyle Chamberlin
   email : blog@p20m.org
